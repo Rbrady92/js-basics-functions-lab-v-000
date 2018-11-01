@@ -12,7 +12,7 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-  let price = 0
+  //let price = 0
 
   if (distanceFromHqInFeet(start, end) < 400) return 0
   if (distanceTravelledInFeet(start, end) > 400 && distanceTravelledInFeet(start, end) < 2000) return (distanceTravelledInFeet(start, end) - 400) * .02
