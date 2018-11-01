@@ -4,5 +4,5 @@ function distanceFromHqInBlocks(street) {
 }
 
 function distanceFromHqInFeet(street) {
-  return Math.abs((42 * 264) - (distanceFromHqInBlocks(street) * 264))
+  return Math.abs(distanceFromHqInBlocks(street) * 264)
 }
